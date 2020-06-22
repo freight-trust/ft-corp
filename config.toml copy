@@ -1,6 +1,6 @@
 [netlify]
   base = "."
-  command = "npm install && gatsby build"
+  command = "yarn clean && gatsby build"
   publish = "public"
 
 [build]
@@ -20,7 +20,7 @@
   compress = true   
    
 [context.staging]   
-  command = "gatsby clean && gatsby build"
+  command = "yarn clean && gatsby build"
 
 [serve]
   command = "gatsby serve" 
