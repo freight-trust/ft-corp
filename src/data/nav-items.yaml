@@ -1,0 +1,18 @@
+- title: Features
+  pages:
+    - path: /
+- title: Solutions
+  pages:
+    - path: /solutions
+- title: Marketplace
+  pages:
+    - title: Marketplace Integrations
+      path: /marketplace
+- title: Corporate
+  pages:
+    - title: Corporate Information
+      path: /corporate
+- title: Data
+  pages:
+    - title: Global Container Index
+      path: /freight
