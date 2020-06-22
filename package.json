@@ -13,13 +13,19 @@
     "build:analyze": "ANALYZE=true yarn build"
   },
   "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.4",
     "gatsby": "^2.19.0",
+    "gatsby-cli": "^2.12.49",
     "gatsby-theme-carbon": "^1.22.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-responsive": "^8.0.3",
     "react-use-auth": "^0.7.5",
-    "recharts": "^1.8.5"
+    "recharts": "^1.8.5",
+    "sass-loader": "7.3.1"
   },
   "devDependencies": {
     "eslint-config-react-app": "^5.2.1"
